@@ -6,7 +6,7 @@ These contracts will do several things:
 
 - Pay the Investors quickly and easily.
 
-- Distribute profits from NFT sales to Investors into three profit shares (70,20,10)%.
+- Distribute profits from Token sales to Investors into three profit shares (70,20,10)%.
 
 - Distribution of profits after each NFT sale is not automated.
 
