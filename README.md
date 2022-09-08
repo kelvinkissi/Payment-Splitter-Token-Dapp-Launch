@@ -62,4 +62,4 @@ Withdraw from the  “withdraw” function in the NFT smart
 Release(method) ETH payment - by copying the address connected to the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the share.
 
 
-SCREENSHOTS PROVIDED IN THE PDF DOCS
+SCREENSHOTS PROVIDED IN THE PDF FILE
