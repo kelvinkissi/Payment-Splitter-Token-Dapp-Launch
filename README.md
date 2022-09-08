@@ -16,7 +16,7 @@ These contracts will do several things:
 *** Tickets/Token metadata storage = https://ipfs.io/ https://www.pinata.cloud/ ***
 
 
-# Payment-Splitter-NFT-Dapp-Launch
+# Payment-Splitter-Token-Dapp-Launch
 
 "PAYMENTS" smart contract
 
@@ -58,7 +58,7 @@ To show:
 ABI on minting app - Config file —> Abi.json —> config.json
 
 
-Withdraw from the  “withdraw” function in the NFT smart  
+Withdraw from the  “withdraw” function in the NFT smartcontract 
 
 Release(method) ETH payment - by copying the address connected to the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the share.
 
