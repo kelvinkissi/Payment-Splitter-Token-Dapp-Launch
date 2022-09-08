@@ -13,7 +13,9 @@ These contracts will do several things:
 - Investors will use the PullMethod function to release the ETH shares allow to them. 
 
 *** IMPORTANT TO NOTATE BOTH CONTRACTS WILL OPERATE SEPARATELY ON THE BLOCKCHAIN ***
-*** Tickets/Token metadata storage = https://ipfs.io/ https://www.pinata.cloud/ ***
+*** Tickets/Token metadata storage ***
+*** https://ipfs.io/ ***
+*** https://www.pinata.cloud/ ***
 
 
 # Payment-Splitter-Token-Dapp-Launch
