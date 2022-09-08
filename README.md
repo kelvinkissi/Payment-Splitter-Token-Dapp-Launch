@@ -49,7 +49,7 @@ Remix IDE / Solidity Contract code
 ***Replace “msg.sender”with the address of the deployed payment contract***
 
 
-***I used the ABI from our smart contract "payment splitter contract" for the Minting DApp***
+***I used the ABI from the smart contract "payment splitter contract" for the Minting DApp***
 
 ***I used the Environment: injected Web3*** "Rinkeby Test Network" 
 
