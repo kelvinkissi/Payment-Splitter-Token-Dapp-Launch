@@ -1,6 +1,6 @@
 Smart Contracts
 
-Implemented 2 NFT-ProfitSplitter smart Contracts in Solidity using Remix IDE and Metamask to connect and deploy/test on the Rinkeby Test network.
+Implemented 2 ProfitSplitter smart Contracts in Solidity using Remix IDE and Metamask to connect and deploy/test on the Rinkeby Test network.
 
 These contracts will do several things:
 
