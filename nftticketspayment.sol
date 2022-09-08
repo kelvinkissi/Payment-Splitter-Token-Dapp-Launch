@@ -16,6 +16,7 @@ contract TICKETS_SALES_PAYMENTS is ERC721Enumerable, Ownable {
   uint256 public maxMintAmount = 5;
   bool public paused = false;
   mapping(address => bool) public whitelisted;
+  //Made payable public just to verify that everything is working
   address payable public payments;
 
   constructor(
@@ -112,7 +113,7 @@ contract TICKETS_SALES_PAYMENTS is ERC721Enumerable, Ownable {
   function removeWhitelistUser(address _user) public onlyOwner {
     whitelisted[_user] = false;
   }
-
+  //Made contract payable to the "payments" contract address
   function withdraw() public payable onlyOwner {
     (bool success, ) = payable(payments).call{value: address(this).balance}("");
     require(success);
