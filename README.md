@@ -1,11 +1,46 @@
+Smart Contracts
+
+Implemented 2 NFT-ProfitSplitter smart Contracts in Solidity using Remix IDE and Metamask to connect and deploy/test on the Rinkeby Test network.
+
+These contracts will do several things:
+
+- Pay the Investors quickly and easily.
+
+- Distribute profits from NFT sales to Investors into three profit shares (70,20,10)%.
+
+- Distrubution of profits after each NFT sales is not automated.
+
+- Investors will use the PullMethod function to release the ETH shares allow to them. 
+
+*** IMPORTANT TO NOTATE BOTH CONTRACT WILL OPERATE SEPARATELY ON THE BLOCKCHAIN ***
+
+
 # Payment-Splitter-NFT-Dapp-Launch
+
+"PAYMENTS" smart contract
+
+Implemented "PAYMENTS" contract. This will accept Ether into the contract incoming from the "TICKET_SALES" and divide the Ether PER profit share among the Investors. This will allow the DAO to have peace of mind and get paid quickly and efficiently.
+
+For example, Investor #1 gets paid 70%, Investor #2 20%, and Investor #3 gets 10%.
+
+"PAYMENTS" smart contract
+
+Implemented "TICKETS_SALES_PAYMENTS" contract. This will accept Ether into the contract after each sales/Mint and send the proceeds to the "PAYMENTS" contract.
+
+
+
+Code written in Solidity and deployed on the Rinkeby Test Network.
+
+Executed Functions of contract on Remix IDE.
+
+Remix IDE / Solidity Contract code
 
 
 ***The withdraw method pushes all the ETH to the payable line 118 address —> (msg.sender)***
 
 ***I created a new variable called “address“ line 25 payable to public “payments”***
 
-***To initialize it we added in the constructor line 31 “address” _payments***
+***To initialize it I added in the constructor line 31 “address” _payments***
 
 ***line 34 made payment =  payable(_payments)***
 
@@ -25,3 +60,6 @@ ABI on minting app - Config file —> Abi.json —> config.json
 Withdraw from the  “withdraw” function in the NFT smart  
 
 Release(method) ETH payment - by copying the address connected to the the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the share. 
+
+
+SCREEN SHOTS PROVIDED IN THE PDF DOCS
