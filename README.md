@@ -17,17 +17,6 @@ These contracts will do several things:
 
 # Payment-Splitter-NFT-Dapp-Launch
 
-"PAYMENTS" smart contract
-
-Implemented "PAYMENTS" contract. This will accept Ether into the contract incoming from the "TICKET_SALES" and divide the Ether PER profit share among the Investors. This will allow the DAO to have peace of mind and get paid quickly and efficiently.
-
-For example, Investor #1 gets paid 70%, Investor #2 20%, and Investor #3 gets 10%.
-
-"TICKETS_SALES_PAYMENTS" smart contract
-
-Implemented "TICKETS_SALES_PAYMENTS" contract. This will accept Ether into the contract after each sales/Mint and send the proceeds to the "PAYMENTS" contract.
-
-
 
 Code written in Solidity and deployed on the Rinkeby Test Network.
 
@@ -50,16 +39,16 @@ Remix IDE / Solidity Contract code
 
 ***I used the ABI from our smart contract "payment splitter contract" for the Minting DApp***
 
-***I used the Environment: injected Web3*** "Rinkeby Test Network" 
+***I used the Environment: injected Web3*** "Rinkeby Test Network"
 
-To show: 
+To show:
 
-ABI on minting app - Config file —> Abi.json —> config.json 
+ABI on minting app - Config file —> Abi.json —> config.json
 
 
 Withdraw from the  “withdraw” function in the NFT smart  
 
-Release(method) ETH payment - by copying the address connected to the the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the share. 
+Release(method) ETH payment - by copying the address connected to the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the share.
 
 
-SCREEN SHOTS PROVIDED IN THE PDF DOCS
+SCREENSHOTS PROVIDED IN THE PDF DOCS
