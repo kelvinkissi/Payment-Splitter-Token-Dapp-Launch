@@ -12,7 +12,7 @@ These contracts will do several things:
 
 - Investors will use the PullMethod function to release the ETH shares allow to them. 
 
-*** IMPORTANT TO NOTATE BOTH CONTRACT WILL OPERATE SEPARATELY ON THE BLOCKCHAIN ***
+*** IMPORTANT TO NOTATE BOTH CONTRACTS WILL OPERATE SEPARATELY ON THE BLOCKCHAIN ***
 
 
 # Payment-Splitter-NFT-Dapp-Launch
