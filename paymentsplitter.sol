@@ -16,7 +16,7 @@ contract PAYMENTS is PaymentSplitter {
 */
 
 // Profit share for each invidual investor
-/**[70, 
-    20,
-    10]
+/**[70,   // "70%" distribution
+    20,  // "20%" distribution
+    10] // "10%" distribution
 */
