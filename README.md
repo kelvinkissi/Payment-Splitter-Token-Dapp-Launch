@@ -23,7 +23,7 @@ Implemented "PAYMENTS" contract. This will accept Ether into the contract incomi
 
 For example, Investor #1 gets paid 70%, Investor #2 20%, and Investor #3 gets 10%.
 
-"PAYMENTS" smart contract
+"TICKETS_SALES_PAYMENTS" smart contract
 
 Implemented "TICKETS_SALES_PAYMENTS" contract. This will accept Ether into the contract after each sales/Mint and send the proceeds to the "PAYMENTS" contract.
 
