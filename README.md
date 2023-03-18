@@ -75,7 +75,7 @@ Used the ABI from the smart contract "payment splitter contract" for the Minting
 Used the Environment: injected Web3  "Rinkeby Test Network"
 ```
 
-To show:
+# Test
 
 ```
 ABI on minting app - Config file —> Abi.json —> config.json
