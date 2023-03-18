@@ -1,68 +1,90 @@
-Smart Contracts
+# Payment-Splitter-Token-Dapp-Launch
 
-Implemented a ProfitSplitter smart Contract and a Ticket sales smart contract in Solidity using Remix IDE and Metamask to connect and deploy/test on the Rinkeby Test network.
 
-These contracts will do several things:
+Using Remix IDE and MetaMask to connect and deploy on the Rinkeby Test network, I have created two Solidity Smart Contracts: ProfitSplitter and TicketSales. 
+
+The "PAYMENTS" contract is responsible for accepting incoming Ether from the "TICKET_SALES" contract and dividing it among investors based on their profit shares. This ensures the DAO's peace of mind and efficient payment processing.
+
+Similarly, the "TICKET_SALES_PAYMENTS" contract accepts Ether after each sale or mint and sends the proceeds to the "PAYMENTS" contract for fair distribution among investors.
+
+
+
+Smart Contracts functionalities:
 
 - Pay the Investors quickly and easily.
 
 - Distribute profits from Token sales to Investors into three profit shares (70,20,10)%.
 
-- Distribution of profits after each NFT sale is not automated.
+- Distribution of profits after each Token(Ticket) sale is not automated.
 
 - Investors will use the PullMethod function to release the ETH shares allow to them. 
 
-*** IMPORTANT TO NOTATE BOTH CONTRACTS WILL OPERATE SEPARATELY ON THE BLOCKCHAIN ***
-*** Tickets/Token metadata storage ***
-*** https://ipfs.io/ ***
-*** https://www.pinata.cloud/ ***
 
-
-# Payment-Splitter-Token-Dapp-Launch
-
-"PAYMENTS" smart contract
-
-Implemented "PAYMENTS" contract. This will accept Ether into the contract incoming from the "TICKET_SALES" and divide the Ether PER profit share among the Investors. This will allow the DAO to have peace of mind and get paid quickly and efficiently.
-
-For example, Investor #1 gets paid 70%, Investor #2 20%, and Investor #3 gets 10%.
-
-"TICKETS_SALES_PAYMENTS" smart contract
-
-Implemented "TICKETS_SALES_PAYMENTS" contract. This will accept Ether into the contract after each sales/Mint and send the proceeds to the "PAYMENTS" contract.
+${\color{red}IMPORTANT}$ ${\color{red}TO}$ ${\color{red}NOTE}$ ${\color{red}BOTH}$ ${\color{red}CONTRACTS}$ ${\color{red}WILL}$ ${\color{red}OPERATE}$ ${\color{red}SEPARATELY}$ ${\color{red}THE}$ ${\color{red}BLOCKCHAIN}$
 
 
 
-Code written in Solidity and deployed on the Rinkeby Test Network.
+# Token - Tickets metadata storage
 
-Executed Functions of contract on Remix IDE.
-
-Remix IDE / Solidity Contract code
+![](./Powerpoint-Presentation/metadata.jpeg)
 
 
-***The withdraw method pushes all the ETH to the payable line 118 address —> (msg.sender)***
+- [IPFS](https://ipfs.io/)
 
-***I created a new variable called “address“ line 25 payable to public “payments”***
-
-***To initialize it I added in the constructor line 31 “address” _payments***
-
-***line 34 made payment =  payable(_payments)***
+- [Pinata](https://www.pinata.cloud/)
 
 
-***Replace “msg.sender”with the address of the deployed payment contract***
+# Smart Contracts 
+
+${\color{green}PAYMENTS}$ ${\color{green}Contract}$
+
+![](./Powerpoint-Presentation/Paymentsplittercontract.jpeg)
+
+The "PAYMENTS" contract has been successfully deployed, which enables incoming Ether from "TICKET_SALES" to be received and divided proportionally amongst investors based on their profit share. By implementing this feature, the DAO can receive payments in a timely and efficient manner, ensuring peace of mind for all parties involved. As an illustration, Investor #1 will receive 70% of the payment, Investor #2 will receive 20%, and Investor #3 will receive 10%.
+
+${\color{green}TICKETS}$ ${\color{green}SALES}$ ${\color{green}Contract}$
+
+![](./Powerpoint-Presentation/ticketsalecontract.jpeg)
+
+The "TICKETS_SALES_PAYMENTS" contract has been implemented to facilitate Ether payments for each sale/mint operation. This contract receives Ether and forwards the proceeds to the "PAYMENTS" contract.
 
 
-***I used the ABI from the smart contract "payment splitter contract" for the Minting DApp***
+# Instructions 
 
-***I used the Environment: injected Web3*** "Rinkeby Test Network" 
+``` 
+The withdraw method pushes all the ETH to the payable line 118 address —> (msg.sender) 
+```
+``` 
+Created a new variable called “address“ in line 25 payable to public “payments”
+```
+``` 
+To initialize it I added in the constructor line 31 “address” _payments
+```
+```
+Line 34 made payment =  payable(_payments)
+```
+
+```
+Replaced “msg.sender” with the address of the deployed payment contract
+```
+
+```
+Used the ABI from the smart contract "payment splitter contract" for the Minting DApp
+```
+```
+Used the Environment: injected Web3  "Rinkeby Test Network"
+```
 
 To show:
 
+```
 ABI on minting app - Config file —> Abi.json —> config.json
+```
+```
+Withdraw from the "withdraw" function in the "TICKETS" contract 
+```
+```
+Release(method) ETH payment - by copying the address connected to the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the shares.
+```
 
 
-Withdraw from the  “withdraw” function in the NFT smartcontract 
-
-Release(method) ETH payment - by copying the address connected to the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the share.
-
-
-SCREENSHOTS PROVIDED IN THE PDF FILE
