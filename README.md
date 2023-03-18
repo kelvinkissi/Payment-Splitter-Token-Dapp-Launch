@@ -84,7 +84,7 @@ ABI on minting app - Config file —> Abi.json —> config.json
 Withdraw from the "withdraw" function in the "TICKETS" contract 
 ```
 ```
-Release(method) ETH payment - by copying the address connected to the EVM In the Deployed and released section and the amount of the ETH should go up. Based on the shares.
+Release(method) ETH payment - by copying the address connected to the EVM In the "Deployed and released" section and the amount of the ETH should go up, based on the shares allocated.
 ```
 
 
