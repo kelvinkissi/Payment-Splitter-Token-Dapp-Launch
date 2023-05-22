@@ -82,7 +82,10 @@ Used the Environment: injected Web3  "Rinkeby Test Network"
 [ABIs](https://www.alchemy.com/overviews/what-is-an-abi-of-a-smart-contract-examples-and-usage)  define a standard mechanism for interacting with smart contracts. These are basically human-readable interfaces that enable us to interact with the complicated EVM bytecode of a smart contract.
 These interfaces are extremely crucial as they enable interactions between applications and smart contracts or even contracts to contracts. These details are then used to encode contract calls that are made to the EVM so that the virtual machine can read, understand and execute these instructions.
 
-![](./ABI.jpeg)
+<p align="center">                        
+  <img src="./Powerpoint-Presentation/abi.jpeg">
+   </a>
+</p>
 
 ```
 ABI on minting app - Config file —> Abi.json —> config.json
