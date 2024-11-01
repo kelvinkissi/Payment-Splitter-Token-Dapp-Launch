@@ -40,7 +40,7 @@ Smart Contracts functionalities:
 
 The "PAYMENTS" contract has been successfully deployed, which enables incoming Ether from "TICKET_SALES" to be received and divided proportionally amongst investors based on their profit share. By implementing this feature, the DAO can receive payments in a timely and efficient manner, ensuring peace of mind for all parties involved. As an illustration, Investor #1 will receive 70% of the payment, Investor #2 will receive 20%, and Investor #3 will receive 10%.
 
-${\color{green}TICKETS}$ ${\color{green}SALES}$ ${\color{green}Contract}$
+[**TICKETS SALES Contract**](https://github.com/kelvinkissi/Payment-Splitter-Token-Dapp-Launch/blob/main/nftticketspayment.sol)
 
 ![](./Powerpoint-Presentation/ticketsalecontract.jpeg)
 
