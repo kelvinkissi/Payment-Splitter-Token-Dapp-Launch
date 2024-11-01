@@ -37,7 +37,7 @@ ${\color{red}IMPORTANT}$ ${\color{red}TO}$ ${\color{red}NOTE}$ ${\color{red}BOTH
 
 # Smart Contracts 
 
-${\color{green}PAYMENTS}$ ${\color{green}Contract}$
+[${\color{green}PAYMENTS}$ ${\color{green}Contract}$](https://github.com/kelvinkissi/Payment-Splitter-Token-Dapp-Launch/blob/main/paymentsplitter.sol)
 
 ![](./Powerpoint-Presentation/Paymentsplittercontract.jpeg)
 
