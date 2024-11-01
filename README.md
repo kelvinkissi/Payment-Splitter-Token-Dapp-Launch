@@ -21,8 +21,7 @@ Smart Contracts functionalities:
 - Investors will use the PullMethod function to release the ETH shares allow to them. 
 
 
-${\color{red}IMPORTANT}$ ${\color{red}TO}$ ${\color{red}NOTE}$ ${\color{red}BOTH}$ ${\color{red}CONTRACTS}$ ${\color{red}WILL}$ ${\color{red}OPERATE}$ ${\color{red}SEPARATELY}$ ${\color{red}ON}$ ${\color{red}THE}$ ${\color{red}BLOCKCHAIN}$
-
+[**PAYMENTS Contract**](https://github.com/kelvinkissi/Payment-Splitter-Token-Dapp-Launch/blob/main/paymentsplitter.sol)
 
 
 # Token - Tickets metadata storage
