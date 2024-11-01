@@ -94,6 +94,9 @@ Withdraw from the "withdraw" function in the "TICKETS" contract
 ```
 Release(method) ETH payment - by copying the address connected to the EVM In the "Deployed and released" section and the amount of the ETH should go up, based on the shares allocated.
 ```
+
+---
+
 <div align="center">
    
    [Powerpoint](https://github.com/kissikelvin/Payment-Splitter-Token-Dapp-Launch/blob/main/Powerpoint-Presentation/SALES%20TICKETS%20-%20PROFIT%20PAYMENT%20SPLITTER%20.pdf)
