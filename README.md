@@ -1,5 +1,6 @@
 # Payment-Splitter-Token-Dapp-Launch
 
+*by KELVIN KISSI*
 
 Using Remix IDE and MetaMask to connect and deploy on the Rinkeby Test network, I have created two Solidity Smart Contracts: ProfitSplitter and TicketSales. 
 
